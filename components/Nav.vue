@@ -30,7 +30,7 @@
 <style scoped>
   .padding {
       padding: 0.5rem;
-      background-color: black
+      background-color: #117710 !important;
   }
   .nav-left {
       margin-left: auto;

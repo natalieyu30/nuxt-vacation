@@ -12,13 +12,15 @@
 import { mapState } from 'vuex'
 
 export default {
-  layout: 'no-nav',
+  layout: 'default',
   computed: {
     ...mapState(['myRentals'])
   }
 }
 </script>
 
-<style>
-
+<style scoped>
+.container {
+  margin-top: 3rem;
+}
 </style>
